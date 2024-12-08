@@ -1,0 +1,49 @@
+
+  .floating-note {
+    position: absolute;
+    font-size: 2rem;
+    animation: float 5s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .hero-section {
+    background-image: url('/public/assets/bg.jpg'); /* Ensure path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .floating-note {
+    font-size: 3rem;
+    animation: float 6s infinite;
+  }
+  
+  .floating-note-slow {
+    font-size: 3.5rem;
+    animation: float 8s infinite;
+  }
+  
+  .floating-note-fast {
+    font-size: 2.5rem;
+    animation: float 4s infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
