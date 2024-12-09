@@ -17,13 +17,13 @@ const HeroSection = ({ onSelectCategory }) => {
         <div className="flex justify-center gap-8">
           <button
             onClick={() => onSelectCategory("hindi")}
-            className="px-12 py-6 bg-gradient-to-r from-yellow-500 to-orange-500 text-white text-2xl font-extrabold rounded-2xl shadow-2xl transform transition-all duration-500 hover:scale-125 hover:shadow-lg hover:rotate-3 animate__animated animate__zoomIn"
+            className="px-12 py-6 bg-gradient-to-r from-green-500 to-teal-500 text-white text-2xl font-extrabold rounded-2xl shadow-2xl transform transition-all duration-500 hover:scale-125 hover:shadow-lg hover:rotate-3 animate__animated animate__zoomIn"
           >
             Hindi Songs
           </button>
           <button
             onClick={() => onSelectCategory("marathi")}
-            className="px-12 py-6 bg-gradient-to-r from-green-500 to-teal-500 text-white text-2xl font-extrabold rounded-2xl shadow-2xl transform transition-all duration-500 hover:scale-125 hover:shadow-lg hover:-rotate-3 animate__animated animate__zoomIn animate__delay-1s"
+            className="px-12 py-6 bg-gradient-to-r from-yellow-500 to-orange-500 text-white text-2xl font-extrabold rounded-2xl shadow-2xl transform transition-all duration-500 hover:scale-125 hover:shadow-lg hover:-rotate-3 animate__animated animate__zoomIn animate__delay-1s"
           >
             Marathi Songs
           </button>
